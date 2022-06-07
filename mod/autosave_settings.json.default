@@ -1,0 +1,21 @@
+{
+    # 是否启用自动保存，默认：true
+    # 设置为true启用，false禁用
+    "enableAutosave":false,
+
+    # 跳跃后强制保存，默认：true
+    # 设置为true启用，false禁用
+    "forceSaveAfterPlayerJumped":true,
+
+    # 一段时间后强制，默认：true
+    # 设置为true启用，false禁用
+    "forceSaveAfterMinutes":true,
+
+    # 两次保存的间隔时间，默认：10（分钟）
+    # 即 10分钟内只保存一次
+    "autosaveIntervalMinutes":10,
+
+    # 强制自动保存的时间
+    # 即 从上次自动保存起15分钟后自动保存一次
+    "autosaveAfterMinutes":15
+}

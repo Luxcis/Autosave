@@ -1,0 +1,19 @@
+{
+  "id": "Autosave",
+  "name": "自动保存",
+  "author": "Luxcis",
+  "utility": "true",
+  "version": "1.0a",
+  "description": "远行星号自动保存",
+  "gameVersion": "0.95.1a-RC6",
+  "dependencies": [
+    {
+      "id": "lw_lazylib",
+      "name": "LazyLib"
+    }
+  ],
+  "jars": [
+    "jars/lw_Autosave.jar"
+  ],
+  "modPlugin": "top.luckyluxcis.autosave.AutosaveModPlugin"
+}
